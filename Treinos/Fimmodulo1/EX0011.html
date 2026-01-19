@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Testando imagens dinamicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture> <!---Esta TAg serve para criar varias soucers, varias fontes de imagens. -->
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png.png" type="image/png">
+        <img src="Imagens/foto-g.png.png" alt="Imagen flexível"> 
+    </picture>
+
+     <h1>Vamos testar midia audio</h1>
+     <p>Reproduzir áudios em HTML</p>
+     <audio src="Audio/cash-audio.mp3" controls></audio> <!---Tag autoplay para tocar automaticamente, Tag controls para aparecer os controles do audio no site-->
+       
+     <h1>Segunda maneira de colocar áudios em HTML</h1>
+     <audio preload="metadata"  controls>
+        <source src="Audio/cash-audio.mp3" type="audio/mpeg">
+        <source src="Audio/cash-audio.mp3" type="audio/ogg">
+        <source src="Audio/cash-audio.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não e compativel com o audio, faça download do áudio caso nescessário. <a href="Audio/cash-audio.mp3"> <br>Download</a></p>
+      </audio>
+
+
+    <h1>Conteudos da aula</h1>
+    <p>
+        Nesta aula aprendemos a utilizar imagens dinamicas, que se alteram de acordo com o tamanho do navegador <br>
+        Tag Picture: serve para criar varias soucers, varias fontes de imagens, dentro dessas tags utilizamos a tag baixo <br>
+        Tag souncer media: serve para definir vários tipos de arquivos em formato de mídia, max width para definir o mínimo para carregar uma nova foto, Exemplo max width: 1000px, que significa que acima de 1000px a foto da resoluçao original continuara  source media="(min-width: )" srcset=""
+    </p>
+    <picture>
+        <source media="(max-width: )" srcset="">
+    </picture>
+    <p>Nesta aula aprendemos a como utilizar audios em nosso site <br>
+    Para utilizamos audio usamos a Tag: Audio 
+    </p>
+            <p>
+    <a href="index.html">Voltar para página incial</a>
+   </p>
+</body>
+</html>

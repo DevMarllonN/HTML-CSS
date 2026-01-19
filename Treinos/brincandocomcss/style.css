@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+  main {
+    border-radius: 15px;
+    box-shadow: 1px 5px 20px #b6b5b5;
+    max-width: 48em;
+    padding: 2em;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+   
+  }
+
+  h3 {
+   color: rgb(161, 159, 159);
+  }
+
+ .principal {
+  text-align: center;
+  font-size: 3em;
+  height: 4em;
+  margin: 1em;
+ }
+
+ .pprincipal {
+    text-align: justify;
+     font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.1em;
+ }
+ img {
+    border-radius: 0.2em;
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+ }
+
+  .banner {
+   width: 50em;
+   height: auto;
+   margin: auto;
+  }
+
+ 
+ 

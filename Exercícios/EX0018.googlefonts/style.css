@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Vogue';
+    src: url(fonts/vogue/Vogue.ttf); 
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+           }
+
+@font-face {
+    font-family: "Lover";
+    src: url(fonts/Lover.otf);
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+           }       
+
+      h1 {
+        font-family: 'Vogue';
+        font-size: 2.2em;
+        font-weight: normal;
+        font-style: normal;
+      }
+
+       h2 {
+         font-family:'Lover';
+         font-size: 2.2em;
+        font-weight: normal;
+        font-style: normal;
+       }

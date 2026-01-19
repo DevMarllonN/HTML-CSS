@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: #78a878;
+    font-size: 16px;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(  #339933,  #267326,  #206020);
+    padding: 10px 20px 10px 20px;
+    display: block;
+    height: auto;
+    width: auto;
+    text-align: justify;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+h1#titulo {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.89);
+    
+}
+
+ p#rodape {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.89);
+ }
+
+  nav {
+    display: inline-block;
+    padding: 10px;
+    font-size: 15px;
+    
+  }
+
+  nav > a {
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    
+  }
+
+  nav > a:hover {
+    color: rgb(212, 212, 212);
+  }
+
+  main {
+  background-color: white;
+  width: 600px;
+  
+  border-style:none;
+  border-radius: 2px;
+  
+  padding: 10px;
+  margin: auto;
+
+  box-shadow: 1px 11px 7px 3px rgb(0 0 0 / 52%);
+  
+}
+
+ @font-face {
+  font-family: 'indroid.otf';
+  src: url(fontes/idroid.otf);
+ }
+
+  h2 {
+    font-family: 'indroid.otf';
+    color: #206020;
+    background-image: linear-gradient(to left, rgba(176, 212, 176, 0.116), rgba(210, 252, 210, 0.685));
+    font-size: 23px;
+    text-align: justify;
+    
+  }
+
+  article > p {
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  }
+
+  .bugdroid {
+    display: block;
+    margin: auto;
+  }
+ 
+  iframe#video {
+    
+    width: 600px;
+    height: 400px;
+    display: block;
+    background-color: #133613;
+    padding: 10px 10px 10px 10px;
+    margin: -10px;
+    position: relative;
+    
+  }
+
+   section#s2 {
+    display: block;
+    background-color: #cae9ca;
+    margin: 0px;
+    border-radius: 10px;
+   
+    
+   }
+
+   h3#h3 {
+    background-color: #78a878;
+    padding: 10px 10px 10px 10px;
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 16px;
+    
+  
+   }
+
+   aside > p.p1 {
+    font-size: 15px;
+    padding: 1px 7px 10px 10px;
+    margin: 1px;
+   }
+
+   ul {
+    text-decoration: underline;
+   }
+
+  p#pfinal {
+    text-align: center;
+    background-color: #133613;
+    color: aliceblue;
+    font-size: 14px;
+  }
+
+  a.link {
+    color: aliceblue;
+    font-weight: 700;
+    margin: 0px;
+    
+  }
+
+  a.link:hover {
+    text-decoration: underline;
+  }

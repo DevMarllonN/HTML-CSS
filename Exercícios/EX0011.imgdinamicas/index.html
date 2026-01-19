@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Testando imagens dinamicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplismente aumente e diminua o tamanho do seu navegador.</p>
+    <picture> <!---Esta TAg serve para criar varias soucers, varias fontes de imagens. -->
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png.png" type="image/png">
+        <img src="Imagens/foto-g.png.png" alt="Imagen flexível"> 
+    </picture>
+
+     <h1>Vamos testar midia audio</h1>
+     <p>Reproduzir áudios em HTML</p>
+     <audio src="Audio/cash-audio.mp3" autoplay controls></audio> <!---Tag autoplay para tocar automaticamente, Tag controls para aparecer os controles do audio no site-->
+       
+     <h1>Segunda maneira de colocar áudios em HTML</h1>
+     <audio preload="metadata" autoplay controls>
+        <source src="Audio/cash-audio.mp3" type="audio/mpeg">
+        <source src="Audio/cash-audio.mp3" type="audio/ogg">
+        <source src="Audio/cash-audio.mp3" type="audio/wav">
+        <p>Infelizmente seu navegador não e compativel com o audio, faça download do áudio caso nescessário. <a href="Audio/cash-audio.mp3"> <br>Download</a></p>
+      </audio>
+       
+
+      <h2>Teste de audio</h2>
+      <audio autoplay controls>
+        <source src="Audio/cash-audio.mp3" type="audio/mpeg">
+         <source src="Audio/cash-audio.mp3" type="audio/ogg">
+        <source src="Audio/cash-audio.mp3" type="audio/wav">
+      </audio>
+</body>
+</html>
